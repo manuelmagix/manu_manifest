@@ -31,7 +31,11 @@
 	  
   <remote name="bd"
 	  fetch="https://github.com/bq-dev"
-	  revision="cm-13.0" 	  
+	  revision="cm-13.0" 
+	  
+  <remote name="em"
+	  fetch="https://github.com/EvoMagix"
+	  revision="marshmallow" 	  
 
   <remote name="bucket"
 	  fetch="https://bitbucket.org"
@@ -47,7 +51,7 @@
   <project path="build" name="android_build" groups="pdk" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="platform_manifest" remote="rr"/>
+  <project path="android" name="manu_manifest" remote="em"/>
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="rr" />
