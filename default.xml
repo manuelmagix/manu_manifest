@@ -25,6 +25,14 @@
 	  fetch="https://github.com/ResurrectionRemix-Devices"
 	  revision="marshmallow" />
 
+  <remote name="bq"
+	  fetch="https://github.com/brinlyaus"
+	  revision="cm-13.0" 
+	  
+  <remote name="bd"
+	  fetch="https://github.com/bq-dev"
+	  revision="cm-13.0" 	  
+
   <remote name="bucket"
 	  fetch="https://bitbucket.org"
 	  revision="master" />
@@ -64,6 +72,13 @@
   <project path="packages/services/ThemeManagerService" name="android_packages_services_ThemeManagerService" remote="rr" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
 <!-- END RR -->
+
+<!-- BQ -->
+  <project path="device/bq/common" name="android_device_bq_common" remote="bd" />
+  <project path="kernel/bq/msm8976" name="android_kernel_bq_msm8976" remote="bd" />
+  <project path="kernel/bq/common" name="android_kernel_bq_common" remote="bd" />
+  <project path="device/bq/gohan" name="android_device_bq_gohan" remote="bd" />
+  <project path="vendor/bq" name="proprietary_vendor_bq" remote="bq" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
