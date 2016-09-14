@@ -27,15 +27,15 @@
 
   <remote name="bq"
 	  fetch="https://github.com/brinlyaus"
-	  revision="cm-13.0" 
+	  revision="cm-13.0" />
 	  
   <remote name="bd"
 	  fetch="https://github.com/bq-dev"
-	  revision="cm-13.0" 
+	  revision="cm-13.0" /> 
 	  
   <remote name="em"
 	  fetch="https://github.com/EvoMagix"
-	  revision="marshmallow" 	  
+	  revision="marshmallow" />	  
 
   <remote name="bucket"
 	  fetch="https://bitbucket.org"
