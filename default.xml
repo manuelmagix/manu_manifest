@@ -26,10 +26,10 @@
 	  revision="marshmallow" />
 
   <remote name="bq"
-	  fetch="https://github.com/brinlyaus"
+	  fetch="https://github.com/bq-dev"
 	  revision="cm-13.0" />
 	  
-  <remote name="bd"
+  <remote name="bq"
 	  fetch="https://github.com/bq-dev"
 	  revision="cm-13.0" /> 
 	  
@@ -78,10 +78,10 @@
 <!-- END RR -->
 
 <!-- BQ -->
-  <project path="device/bq/common" name="android_device_bq_common" remote="bd" />
-  <project path="kernel/bq/msm8976" name="android_kernel_bq_msm8976" remote="bd" />
-  <project path="kernel/bq/common" name="android_kernel_bq_common" remote="bd" />
-  <project path="device/bq/gohan" name="android_device_bq_gohan" remote="bd" />
+  <project path="device/bq/common" name="android_device_bq_common" remote="bq" />
+  <project path="kernel/bq/msm8976" name="android_kernel_bq_msm8976" remote="bq" />
+  <project path="kernel/bq/common" name="android_kernel_bq_common" remote="bq" />
+  <project path="device/bq/gohan" name="android_device_bq_gohan" remote="bq" />
   <project path="vendor/bq" name="proprietary_vendor_bq" remote="bq" />
 
 <!-- BEGIN CYANOGENMOD -->
